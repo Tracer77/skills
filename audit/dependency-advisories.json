@@ -1,0 +1,192 @@
+{
+  "@simple-git/argv-parser": [
+    {
+      "id": 1241198,
+      "url": "https://github.com/advisories/GHSA-v5rq-49vh-5v5c",
+      "title": "simple-git: `VISUAL` editor environment variable is omitted from unsafe editor detection",
+      "severity": "critical",
+      "vulnerable_versions": "<2.0.1",
+      "cwe": [
+        "CWE-78",
+        "CWE-184"
+      ],
+      "cvss": {
+        "score": 0,
+        "vectorString": null
+      }
+    }
+  ],
+  "@vitest/mocker": [
+    {
+      "id": 1193684,
+      "url": "https://github.com/advisories/GHSA-82fw-gwwq-j7x9",
+      "title": "Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock",
+      "severity": "moderate",
+      "vulnerable_versions": ">=2.1.0 <4.1.11",
+      "cwe": [
+        "CWE-22"
+      ],
+      "cvss": {
+        "score": 5.9,
+        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+      }
+    }
+  ],
+  "nanoid": [
+    {
+      "id": 1138811,
+      "url": "https://github.com/advisories/GHSA-28wg-ghj8-5hjv",
+      "title": "nanoid: non-secure generators can loop indefinitely with negative size",
+      "severity": "high",
+      "vulnerable_versions": "<3.3.16",
+      "cwe": [
+        "CWE-835"
+      ],
+      "cvss": {
+        "score": 5.9,
+        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      }
+    },
+    {
+      "id": 1139427,
+      "url": "https://github.com/advisories/GHSA-2v37-7h3g-55p8",
+      "title": "nanoid: custom generators can loop indefinitely when size is zero",
+      "severity": "high",
+      "vulnerable_versions": "<3.3.18",
+      "cwe": [
+        "CWE-835"
+      ],
+      "cvss": {
+        "score": 5.9,
+        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      }
+    }
+  ],
+  "postcss": [
+    {
+      "id": 1130709,
+      "url": "https://github.com/advisories/GHSA-fxqj-rqcc-2cmp",
+      "title": "PostCSS: incomplete fix of GHSA-6g55-p6wh-862q \u2014 attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset",
+      "severity": "moderate",
+      "vulnerable_versions": "<=8.5.22",
+      "cwe": [
+        "CWE-22",
+        "CWE-200"
+      ],
+      "cvss": {
+        "score": 0,
+        "vectorString": null
+      }
+    },
+    {
+      "id": 1139510,
+      "url": "https://github.com/advisories/GHSA-r28c-9q8g-f849",
+      "title": "PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure",
+      "severity": "high",
+      "vulnerable_versions": "<=8.5.17",
+      "cwe": [
+        "CWE-22"
+      ],
+      "cvss": {
+        "score": 7.5,
+        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+      }
+    }
+  ],
+  "simple-git": [
+    {
+      "id": 1241199,
+      "url": "https://github.com/advisories/GHSA-x6jw-m9v5-85vh",
+      "title": "simple-git unsafe-operation guard does not block trailer command configuration",
+      "severity": "critical",
+      "vulnerable_versions": ">=3.15.0 <4.0.1",
+      "cwe": [
+        "CWE-78",
+        "CWE-184"
+      ],
+      "cvss": {
+        "score": 0,
+        "vectorString": null
+      }
+    },
+    {
+      "id": 1241200,
+      "url": "https://github.com/advisories/GHSA-g4wm-2vf7-vfgr",
+      "title": "simple-git allows command execution through unblocked Git configuration includes",
+      "severity": "high",
+      "vulnerable_versions": "<=3.36.0",
+      "cwe": [
+        "CWE-77",
+        "CWE-78"
+      ],
+      "cvss": {
+        "score": 8.1,
+        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    },
+    {
+      "id": 1241201,
+      "url": "https://github.com/advisories/GHSA-858h-whjf-mvg5",
+      "title": "simple-git: unsafe-operations plugin bypass via git long-option abbreviation (--receive-p/--exe) -> command execution (residual of CVE-2026-28291)",
+      "severity": "high",
+      "vulnerable_versions": "<=3.36.0",
+      "cwe": [
+        "CWE-77",
+        "CWE-88"
+      ],
+      "cvss": {
+        "score": 8.1,
+        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      }
+    }
+  ],
+  "source-map-js": [
+    {
+      "id": 1241209,
+      "url": "https://github.com/advisories/GHSA-68fv-2mgg-jv7q",
+      "title": "source-map-js allows event-loop denial of service through indexed source-map section offsets",
+      "severity": "high",
+      "vulnerable_versions": ">=1.0.0 <1.2.2",
+      "cwe": [
+        "CWE-1284"
+      ],
+      "cvss": {
+        "score": 7.5,
+        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      }
+    }
+  ],
+  "tar": [
+    {
+      "id": 1145647,
+      "url": "https://github.com/advisories/GHSA-r292-9mhp-454m",
+      "title": "node-tar: Uncontrolled recursion in mapHas/filesFilter allows uncatchable stack-overflow DoS via crafted long-path tar with member selection",
+      "severity": "high",
+      "vulnerable_versions": "<=7.5.20",
+      "cwe": [
+        "CWE-400",
+        "CWE-674"
+      ],
+      "cvss": {
+        "score": 7.5,
+        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      }
+    }
+  ],
+  "vitest": [
+    {
+      "id": 1193683,
+      "url": "https://github.com/advisories/GHSA-82fw-gwwq-j7x9",
+      "title": "Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock",
+      "severity": "moderate",
+      "vulnerable_versions": ">=2.1.0 <4.1.11",
+      "cwe": [
+        "CWE-22"
+      ],
+      "cvss": {
+        "score": 5.9,
+        "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+      }
+    }
+  ]
+}
